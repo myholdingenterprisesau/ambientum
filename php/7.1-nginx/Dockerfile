@@ -9,7 +9,7 @@
 #
 # Inspired by official PHP images.
 #
-FROM ambientum/php:7.1
+FROM mochaka/php:7.1
 
 # Repository/Image Maintainer
 LABEL maintainer="Diego Hernandes <iamhernandev@gmail.com>"

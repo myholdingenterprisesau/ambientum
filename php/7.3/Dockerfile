@@ -14,7 +14,7 @@ LABEL maintainer="Diego Hernandes <iamhernandev@gmail.com>"
 
 # Variables for enabling NewRelic
 ENV FRAMEWORK=laravel \
-    OPCACHE_MODE="normal" \
+    OPCACHE_MODE="disabled" \
     PHP_MEMORY_LIMIT=256M \
     XDEBUG_ENABLED=false \
     NR_ENABLED=false \
